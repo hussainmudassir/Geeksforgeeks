@@ -1,4 +1,10 @@
 
+
+// given stair of length 'n'. One person wants to climb up the stair. He/she can climb only 1 or 2 steps at each move. The number  
+// of moves to be a multiple of an integer m''. Print the minimum number of moves required to climb to the top of the stairs. 
+
+// C-code
+
 // Program to print minimum number of steps required to reach nth stair by taking 1 or 2 steps at a time.
 #define MAX_POINT 2
 #define ARR_SIZE 100 
@@ -84,14 +90,8 @@ int main()
 } 
 
 
-
-
   //Another method to do the question.
-  // given stair of length 'n'. One person wants to climb up the stair. He/she can climb only 1 or 2 steps at each move. The number  
-  // of moves to be a multiple of an integer m''. Print the minimum number of moves required to climb to the top of the stairs. 
-
-// C-code
-
+  
 int main(){
   cin>>n>>m;
   int min=(n+1)/2;
