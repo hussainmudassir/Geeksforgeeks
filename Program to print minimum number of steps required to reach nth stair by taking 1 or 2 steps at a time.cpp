@@ -82,3 +82,26 @@ int main()
 
     return 0; 
 } 
+
+
+
+
+  //Another method to do the question.
+  // given stair of length 'n'. One person wants to climb up the stair. He/she can climb only 1 or 2 steps at each move. The number  
+  // of moves to be a multiple of an integer m''. Print the minimum number of moves required to climb to the top of the stairs. 
+
+// C-code
+
+int main(){
+  cin>>n>>m;
+  int min=(n+1)/2;
+  int max=n;
+  int steps=min;
+  while(steps%m!=0){
+    steps++;
+  }
+  if(steps>max)
+    cout<<-1;
+  else
+    cout<<steps;
+}
