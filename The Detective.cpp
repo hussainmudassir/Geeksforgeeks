@@ -1,3 +1,25 @@
+// Question
+
+// Prasun, a wanna be detective, has been assigned a case after his continuous failure at solving any. This is the murder 
+// of Snehashis who was killed last night. Prasun has already made some guesses on who could be the murderer and it seems that 
+// the two murderers are communicating via some strange arrangement of words. As prasun has been involved at solving cases of 
+// such fashion, he is making some guesses on what the message could probably be. Though he is pretty smart (:P), you have to 
+// help him by checking whether his guess is actually a possible one from the messages received.
+    
+// Constraints:
+
+// Length of both message is less than 50 character.
+
+// Line 1: Message Received.
+// Line 2: Prasun's Guess.
+    
+// SAMPLE INPUT                                                       SAMPLE OUTPUT
+
+// jogod #! siara.                                                     YES
+// raja is good!
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
 #include <iostream>
 #include <bits/stdc++.h>
 #include <string>
